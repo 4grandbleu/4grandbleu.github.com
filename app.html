@@ -1,0 +1,13 @@
+<html>
+    <script>
+    var varUA = navigator.userAgent.toLowerCase();
+ 
+    if ( varUA.indexOf('android') > -1) {
+        window.location.href = 'https://play.google.com/store/apps/details?id=com.grandbleu.match.app';
+    } else if ( varUA.indexOf("iphone") > -1||varUA.indexOf("ipad") > -1||varUA.indexOf("ipod") > -1 ) {
+        window.location.href = 'https://apps.apple.com/kr/app/%EA%B7%B8%EB%9E%91%EB%A7%A4%EC%B9%98-%EC%9D%B8%EC%A6%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EB%A7%A4%EC%B9%AD/id1542056751';
+    } else {
+        window.location.href = 'https://4grandbleu.com/';
+    }
+    </script>
+</html>
